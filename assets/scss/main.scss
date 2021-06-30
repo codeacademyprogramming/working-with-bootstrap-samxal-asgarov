@@ -1,0 +1,30 @@
+
+// Mixins 
+@import "./mixins/index";
+
+// Common
+@import "./variables";
+@import "./base";
+@import "./typography";
+
+
+// Pages
+@import "./pages/about";
+@import "./pages/index";
+
+// Components
+@import "./components/button";
+
+// Bootstrap global imports
+@import "./bootstrap/scss/mixins";
+
+// Imports from bootstrap
+// Bootstrap utilities imports
+@import "./bootstrap/scss/bootstrap-grid.scss";
+@import "./bootstrap/scss/bootstrap-utilities.scss";
+
+// Bootstrap component imports
+@import "./bootstrap/scss/accordion";
+@import "./bootstrap/scss/buttons";
+@import "./bootstrap/scss/tables";
+@import "./bootstrap/scss/forms";

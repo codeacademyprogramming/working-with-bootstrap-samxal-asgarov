@@ -1,4 +1,9 @@
-
+*,
+*::after,
+*::before{
+  margin: 0%;
+  padding: 0%;
+}
 // Mixins 
 @import "./mixins/index";
 
@@ -28,3 +33,6 @@
 @import "./bootstrap/scss/buttons";
 @import "./bootstrap/scss/tables";
 @import "./bootstrap/scss/forms";
+
+@import "./bootstrap/scss/navbar";
+@import "./bootstrap/scss/nav";

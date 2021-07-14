@@ -219,9 +219,6 @@ p {
     color: gray;
     font-style: italic; }
 
-.img body {
-  background-color: gray; }
-
 .img .container {
   width: 1550px; }
 
@@ -255,6 +252,16 @@ p {
 .img #fig {
   position: absolute;
   bottom: 3%; }
+
+.timeline:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 40px;
+  width: 2px;
+  margin-left: -1.5px;
+  content: "";
+  background-color: #e9ecef; }
 
 /*!
  * Bootstrap Grid v5.0.2 (https://getbootstrap.com/)

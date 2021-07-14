@@ -1,17 +1,17 @@
 {
-  "name": "p317-fe-css-bootstrap",
+  "name": "botstraptemplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile-sass": "node-sass ./assets/scss/main.scss ./assets/css/style.css",
-    "watch-sass": "node-sass ./assets/scss/main.scss ./assets/css/style.css -w"
+    "hello": "node-sass  ./index.scss  ./index.css",
+    "watch": "node-sass  ./index.scss  ./index.css -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^6.0.0"
+    "node-sass": "^6.0.1"
   }
 }
